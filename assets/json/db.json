@@ -1,0 +1,26 @@
+{
+  "veiculos": [
+    {
+      "data_entrada": "02/06/2024",
+      "hora_entrada": "17:03:13",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "AAA1111",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "desconhecido",
+      "id": 1
+    },
+    {
+      "data_entrada": "02/06/2024",
+      "hora_entrada": "17:29:20",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "asda",
+      "tipo_veiculo": "",
+      "id_cliente": "1",
+      "tipo_cliente": "",
+      "id": 2
+    }
+  ]
+}
