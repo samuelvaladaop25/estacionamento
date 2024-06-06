@@ -21,6 +21,17 @@
       "id_cliente": "1",
       "tipo_cliente": "",
       "id": 2
+    },
+    {
+      "data_entrada": "05/06/2024",
+      "hora_entrada": "22:34:34",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "123",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "desconhecido",
+      "id": 3
     }
   ]
 }
