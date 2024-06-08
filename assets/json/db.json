@@ -32,6 +32,61 @@
       "id_cliente": "1",
       "tipo_cliente": "desconhecido",
       "id": 3
+    },
+    {
+      "data_entrada": "05/06/2024",
+      "hora_entrada": "22:36:35",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "FNI6I50",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "cliente",
+      "id": 4
+    },
+    {
+      "data_entrada": "05/06/2024",
+      "hora_entrada": "22:36:50",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "FNI6I50",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "cliente",
+      "id": 5
+    },
+    {
+      "data_entrada": "05/06/2024",
+      "hora_entrada": "22:37:12",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "TESTE",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "desconhecido",
+      "id": 6
+    },
+    {
+      "data_entrada": "08/06/2024",
+      "hora_entrada": "16:14:36",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "asdad",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "desconhecido",
+      "id": 7
+    },
+    {
+      "data_entrada": "08/06/2024",
+      "hora_entrada": "16:16:42",
+      "data_saida": null,
+      "hora_saida": null,
+      "placa": "asdads",
+      "tipo_veiculo": "carro",
+      "id_cliente": "1",
+      "tipo_cliente": "cliente",
+      "id": 8
     }
   ]
 }
