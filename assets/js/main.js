@@ -1,4 +1,4 @@
-const servidor = "http://localhost:3000"
+//const servidor = "http://localhost:3000"
 
 //document.getElementById('formulario').addEventListener('submit', cadastrarVeiculo);
 
@@ -33,7 +33,7 @@ function cadastrarVeiculo(e) {
 
     console.log(JSON.stringify(veiculo));
 
-    const url = servidor
+    
     fetch("http://localhost:3000/veiculos", {
         method: 'POST',
         headers: {
@@ -73,22 +73,22 @@ function removeVeiculo(placa){
 }
 
 function mostraPatio() {
-    alert("teste");
+    //alert("teste");
+    console.log("mostrar Patio")
     fetch("http://localhost:3000/veiculos")
         .then(response => response.json())
         .then(veiculos => {          
-            //console.log(pets)
-            
-            
+            //console.log(veiculos)
+                        
+            let str = '';
             for (let i = 0; i < veiculos.length; i++) {
-                let str = '';
+                let veiculo = veiculos[i];
                 if(veiculo.data_saida==null){
                     saida = '<button class="calcular-saida-btn">Calcular Saída</button>'
                 } else {
                     saida = str(veiculo.data_entrada) +  str(veiculo.hora_entrada)
                 }
             
-                let veiculo = veiculos[i];
                 str+= `
                 <tr>
                     <td>${veiculo.placa}</td>
@@ -97,7 +97,6 @@ function mostraPatio() {
                     <td>${veiculo.data_entrada} ${veiculo.hora_entrada}</td>
                     <td>${saida}</td>
                 </tr>`
-                
                 document.querySelector('#resultados').innerHTML=str
             }
         });
